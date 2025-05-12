@@ -1,0 +1,15 @@
+# Thư viện cơ bản cho xử lý ảnh
+pillow>=9.0.0
+
+# Thư viện chuyển đổi ảnh sang PDF
+img2pdf>=0.4.0
+
+# Thư viện tạo và điều chỉnh tài liệu PDF
+reportlab>=3.6.0
+
+# Thư viện kiểm tra thông tin hệ thống (chỉ cho Windows)
+wmi>=1.5.1;platform_system=="Windows"
+
+# Lưu ý: PyTorch và torchvision cần được cài đặt riêng với lệnh:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# để được hỗ trợ CUDA 12.9
