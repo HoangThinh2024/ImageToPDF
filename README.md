@@ -111,7 +111,7 @@ python -m venv .venv
 pip install pillow img2pdf reportlab
 ```
 
-5. Mở file `image_to_pdf.py` và chạy trực tiếp trong VSCode
+5. Mở file `app.py` và chạy trực tiếp trong VSCode
 
 ---
 
@@ -126,7 +126,7 @@ source venv/bin/activate    # Linux/macOS với venv
 venv\Scripts\activate       # Windows với venv
 
 # Chạy ứng dụng
-python image_to_pdf.py
+python app.py
 ```
 
 ### Các bước sử dụng
@@ -166,7 +166,7 @@ python image_to_pdf.py
 
 ```plaintext
 image_to_pdf/
-├── image_to_pdf.py     # Mã nguồn chính của ứng dụng
+├── app.py     # Mã nguồn chính của ứng dụng
 ├── requirements.txt    # Danh sách các thư viện cần thiết
 ├── README.md           # Tài liệu hướng dẫn
 
